@@ -1,0 +1,16 @@
+Package: EMUDRA
+Type: Package
+Title: Ensemble of Multiple Drug Repositioning Approaches
+Version: 0.99.0
+Date: 2017-11-26
+Author: Xianxiao Zhou
+Maintainer: Xianxiao Zhou <xianxiao.zhou@mssm.edu>, Bin Zhang <bin.zhang@mssm.edu>
+Description: Drug repositioning of various methods and their combinations based on CMap drug induced gene expression changes and their opposite matching with disease signature.
+License: GPL (>= 2) 
+Depends: R (>= 3.2.3), EMUDRA.Data
+Imports: KEGG.db (>= 3.2.2), GO.db(>= 3.2.2), RSQLite(>= 1.0.0), 
+		utils, stats, grDevices, graphics, org.Hs.eg.db, 
+		DBI(>= 0.3.1), Biobase(>= 2.30.0)
+LazyLoad: yes
+NeedsCompilation: yes
+
